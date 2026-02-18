@@ -1,0 +1,35 @@
+project:
+  seed: 42
+
+data:
+  start_date: "2022-03-01"
+  end_date: "2024-10-01"
+  raw_path: "data/raw/pitches_raw.parquet"
+  clean_path: "data/processed/pitches_clean.parquet"
+
+split:
+  type: "time"
+  test_start_date: "2024-04-01"
+  val_start_date: "2023-10-01"
+
+decision:
+  over_under_threshold: 5.5
+
+xgb:
+  n_estimators: 3000
+  learning_rate: 0.05
+  max_depth: 6
+  subsample: 0.8
+  colsample_bytree: 0.8
+  early_stopping_rounds: 50
+
+nn:
+  epochs: 50
+  batch_size: 256
+  lr: 0.001
+  hidden_sizes: [256, 128]
+  dropout: 0.2
+  weight_decay: 0.0001
+
+bnn:
+  mc_samples: 100
