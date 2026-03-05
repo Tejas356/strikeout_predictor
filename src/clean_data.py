@@ -6,6 +6,7 @@ from src.utils import load_config, ensure_directories
 COLUMNS_TO_KEEP = [
     "game_pk",
     "game_date",
+    "game_year",
     "pitcher",
     "batter",
     "player_name",

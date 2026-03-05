@@ -28,16 +28,12 @@ def main():
     if missing:
         raise ValueError(f"Missing required columns for labels: {missing}")
 
-    # Sort so "last pitch of at-bat" is identifiable
     df = df.sort_values(["game_pk", "pitcher", "at_bat_number", "pitch_number"])
 
-    # Keep only the last pitch of each at-bat
     ab_last = df.groupby(["game_pk", "pitcher", "at_bat_number"], as_index=False).tail(1).copy()
 
-    # Create strikeout indicator at at-bat level
     ab_last["is_k"] = ab_last["events"].apply(is_strikeout_event)
 
-    # Aggregate to pitcher-game
     labels = (
         ab_last.groupby(["game_pk", "game_date", "pitcher"], as_index=False)["is_k"]
         .sum()
@@ -49,8 +45,8 @@ def main():
 
     labels.to_parquet(out_path, index=False)
     print("Saved labels to:", out_path)
-    print("Mean strikeouts:", labels["strikeouts"].mean())
-    print("Max strikeouts:", labels["strikeouts"].max())
+    # print("Mean strikeouts:", labels["strikeouts"].mean())
+    # print("Max strikeouts:", labels["strikeouts"].max())
 
 
 if __name__ == "__main__":
