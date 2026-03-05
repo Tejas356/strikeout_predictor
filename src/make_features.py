@@ -14,6 +14,12 @@ def zone_rate_from_zone(series: pd.Series) -> float:
     s = pd.to_numeric(series, errors="coerce")
     return s.between(1, 9).mean()
 
+def safe_nanquantile(x, q):
+    x = pd.to_numeric(x, errors="coerce")
+    if x.notna().sum() == 0:
+        return np.nan
+    return np.nanquantile(x, q)
+
 
 def main():
     cfg = load_config()
@@ -46,9 +52,9 @@ def main():
 
         velo_mean=("release_speed", "mean"),
         velo_std=("release_speed", "std"),
-        velo_p10=("release_speed", lambda x: np.nanpercentile(x, 10)),
-        velo_p50=("release_speed", lambda x: np.nanpercentile(x, 50)),
-        velo_p90=("release_speed", lambda x: np.nanpercentile(x, 90)),
+        velo_p10=("release_speed", lambda x: safe_nanquantile(x, 0.10)),
+        velo_p50=("release_speed", lambda x: safe_nanquantile(x, 0.50)),
+        velo_p90=("release_speed", lambda x: safe_nanquantile(x, 0.90)),
 
         spin_mean=("release_spin_rate", "mean"),
         spin_std=("release_spin_rate", "std"),
