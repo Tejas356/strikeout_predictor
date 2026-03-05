@@ -7,6 +7,9 @@ data:
   raw_path: "data/raw/pitches_raw.parquet"
   clean_path: "data/processed/pitches_clean.parquet"
 
+labels:
+  out_path: "data/processed/game_labels.parquet"
+
 split:
   type: "time"
   test_start_date: "2024-04-01"

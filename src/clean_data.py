@@ -10,6 +10,8 @@ COLUMNS_TO_KEEP = [
     "batter",
     "player_name",
     "pitch_type",
+    "at_bat_number",
+    "pitch_number",
     "release_speed",
     "release_spin_rate",
     "release_pos_x",
