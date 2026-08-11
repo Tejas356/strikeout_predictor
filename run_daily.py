@@ -39,6 +39,7 @@ Env:
 
 import os
 import sys
+import json
 import subprocess
 import time
 from datetime import datetime
@@ -131,7 +132,8 @@ def build_report(date: str) -> str:
 
     head = (f"🎯 **Strikeout slate — {date}**\n"
             f"Plays: {len(plays)} | staked ${plays['stake'].sum():.0f} | "
-            f"real odds {real_odds}/{n} | lineups {confirmed}/{n}")
+            f"real odds {real_odds}/{n} | lineups {confirmed}/{n}\n"
+            f"_Full slate of all {n} pitchers attached as CSV._")
     if not len(plays):
         return f"{head}\n_No plays cleared the filter today._\n{lifetime_line()}"
 
@@ -166,18 +168,26 @@ def build_report(date: str) -> str:
     return "\n".join(lines)
 
 
-def notify_discord(message: str) -> None:
-    """POST the message to the Discord webhook. Non-fatal: the data work is
-    already done, so a webhook failure only warns."""
+def notify_discord(message: str, attach_path: str | None = None) -> None:
+    """POST the message to the Discord webhook, attaching the full prediction CSV
+    (every pitcher) when present. Non-fatal: the data work is already done, so a
+    webhook failure only warns."""
     url = os.environ.get("DISCORD_WEBHOOK_URL")
     if not url:
         log("no DISCORD_WEBHOOK_URL set - skipping notification (see README).")
         return
     try:
         import requests
-        r = requests.post(url, json={"content": message[:1990]}, timeout=20)
+        payload = {"content": message[:1990]}
+        if attach_path and os.path.exists(attach_path):
+            with open(attach_path, "rb") as f:
+                r = requests.post(url, data={"payload_json": json.dumps(payload)},
+                                  files={"file": (os.path.basename(attach_path), f, "text/csv")},
+                                  timeout=30)
+        else:
+            r = requests.post(url, json=payload, timeout=20)
         r.raise_for_status()
-        log("Discord notification sent.")
+        log(f"Discord notification sent{' with full-slate CSV' if attach_path and os.path.exists(attach_path) else ''}.")
     except Exception as exc:  # noqa: BLE001
         log(f"Discord notification FAILED (non-fatal): {exc}")
 
@@ -198,7 +208,8 @@ def main() -> int:
 
     message = build_report(date)
     print_summary()
-    notify_discord(message)
+    csv_path = f"{PRED_DIR}/realtime_v4_predictions_{date}.csv"
+    notify_discord(message, attach_path=csv_path)
     log("=== done ===")
     return 0
 
