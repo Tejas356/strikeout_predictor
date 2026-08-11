@@ -1,0 +1,50 @@
+name: daily-strikeout-run
+
+# Fires at 20:30 UTC = 9:30 PM BST. The MLB season (Apr-Oct) is entirely within
+# British Summer Time, so 20:30 UTC == 21:30 UK on every day this job matters -
+# no DST juggling needed. GitHub cron is UTC and does not adjust for BST/GMT.
+# Also runnable on demand via the "Run workflow" button (workflow_dispatch).
+on:
+  schedule:
+    - cron: "30 20 * * *"   # 20:30 UTC / 21:30 UK (BST) daily
+  workflow_dispatch:
+
+# Note: GitHub disables scheduled workflows after ~60 days with no repo commits.
+# Note: scheduled runs can be queued/late during busy periods - don't assume it's punctual.
+
+jobs:
+  run-daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps (CPU-only PyTorch)
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+
+      - name: Run daily
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BANKROLL: "1000"
+        run: python run_daily.py
+
+      - name: Upload predictions + ledger
+        if: always()          # keep outputs even if a later step failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: predictions-${{ github.run_id }}
+          path: |
+            reports/predictions/
+            reports/bets_ledger.csv
+          if-no-files-found: warn

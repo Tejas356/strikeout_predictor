@@ -33,3 +33,35 @@ Compare traditional ML, deep learning, and Bayesian uncertainty approaches.
 
 ## Decision Framing
 Regression predictions converted into Over/Under classification.
+
+## Daily automated run (GitHub Actions)
+
+The whole daily workflow runs unattended via `run_daily.py`, scheduled by
+[.github/workflows/daily.yml](.github/workflows/daily.yml).
+
+**What it does each day:** settles yesterday's flagged plays against MLB
+boxscores, predicts *today's* slate (real DraftKings/FanDuel odds + confirmed
+lineups + short-outing correction), cross-checks each play against oddsindex.com,
+and posts a compact summary to Discord.
+
+**Run it manually (local):**
+```
+python run_daily.py                 # targets today (US Eastern)
+RUN_DATE=2026-08-10 python run_daily.py   # a specific date
+```
+Needs `ODDS_API_KEY` (in `.env` or env) for real odds, and
+`DISCORD_WEBHOOK_URL` for the notification — both optional; the run degrades
+gracefully (assumed lines / skipped notification) without them.
+
+**Schedule:** cron `30 20 * * *` = **20:30 UTC = 9:30 PM UK**. The MLB season is
+entirely in BST, so this is 9:30 PM UK every day it matters. To change it, edit
+the `cron:` line (UTC; GitHub does not adjust for BST/GMT). You can also trigger a
+run any time from the repo's **Actions → daily-strikeout-run → Run workflow**.
+
+**Secrets** (repo → Settings → Secrets and variables → Actions):
+`ODDS_API_KEY`, `DISCORD_WEBHOOK_URL`. Never commit these.
+
+**When it fails:** GitHub emails you (the job exits non-zero on failure). Check
+**Actions → the failed run → logs**; the predictions/ledger are also uploaded as
+a run artifact. Note GitHub disables scheduled workflows after ~60 days with no
+commits, and scheduled runs can fire a little late during busy periods.
