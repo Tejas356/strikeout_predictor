@@ -1,21 +1,34 @@
 name: daily-strikeout-run
 
-# Fires at 20:30 UTC = 9:30 PM BST. The MLB season (Apr-Oct) is entirely within
-# British Summer Time, so 20:30 UTC == 21:30 UK on every day this job matters -
+# Fires at 13:00 UTC = 2:00 PM BST. The MLB season (Apr-Oct) is entirely within
+# British Summer Time, so 13:00 UTC == 14:00 UK on every day this job matters -
 # no DST juggling needed. GitHub cron is UTC and does not adjust for BST/GMT.
 # Also runnable on demand via the "Run workflow" button (workflow_dispatch).
+#
+# TRADE-OFF at this hour: 14:00 UK = 09:00 ET, which is BEFORE the day's inputs
+# firm up. Confirmed lineups post ~3-4h pre-first-pitch (~3-4pm ET for night
+# games), DraftKings K-props fill in through the morning, and oddsindex posts
+# early afternoon ET. So this run settles yesterday cleanly (all West Coast
+# games final) but predicts today with the team-K% proxy instead of confirmed
+# lineups, partial real odds, and usually no oddsindex second opinion. The
+# readiness line in the Discord message reports the actual coverage each day.
 on:
   schedule:
-    - cron: "30 20 * * *"   # 20:30 UTC / 21:30 UK (BST) daily
+    - cron: "0 13 * * *"    # 13:00 UTC / 14:00 UK (BST) daily
   workflow_dispatch:
 
-# Note: GitHub disables scheduled workflows after ~60 days with no repo commits.
 # Note: scheduled runs can be queued/late during busy periods - don't assume it's punctual.
+# (The old "disabled after ~60 days without commits" risk no longer applies: the
+# commit-results step below pushes daily, which counts as repo activity.)
 
 jobs:
   run-daily:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # Needed by the commit-results step so each run's predictions and the updated
+    # ledger persist back to the repo instead of dying with the runner.
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,6 +51,28 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           BANKROLL: "1000"
         run: python run_daily.py
+
+      # Without this the whole settle step is a no-op in CI: prediction CSVs are
+      # written into a fresh checkout, uploaded as an artifact, then destroyed
+      # with the runner. Next run globs an empty reports/predictions/, finds
+      # nothing outstanding, and the ledger stays frozen at whatever was last
+      # committed - so the lifetime ROI in the Discord message never moves.
+      # Pushing the results back makes tomorrow's settle step able to see today's
+      # plays. Runs even on failure so a settled ledger survives a broken predict.
+      - name: Commit results back
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/predictions/ reports/bets_ledger.csv
+          if git diff --cached --quiet; then
+            echo "No new predictions or ledger changes to commit."
+            exit 0
+          fi
+          git commit -m "Daily run $(date -u +%Y-%m-%d): predictions + settled ledger"
+          # The branch can move between checkout and here; rebase before pushing.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Upload predictions + ledger
         if: always()          # keep outputs even if a later step failed

@@ -53,15 +53,28 @@ Needs `ODDS_API_KEY` (in `.env` or env) for real odds, and
 `DISCORD_WEBHOOK_URL` for the notification — both optional; the run degrades
 gracefully (assumed lines / skipped notification) without them.
 
-**Schedule:** cron `30 20 * * *` = **20:30 UTC = 9:30 PM UK**. The MLB season is
-entirely in BST, so this is 9:30 PM UK every day it matters. To change it, edit
+**Schedule:** cron `0 13 * * *` = **13:00 UTC = 2:00 PM UK**. The MLB season is
+entirely in BST, so this is 2 PM UK every day it matters. To change it, edit
 the `cron:` line (UTC; GitHub does not adjust for BST/GMT). You can also trigger a
 run any time from the repo's **Actions → daily-strikeout-run → Run workflow**.
+
+Note that 2 PM UK is 9 AM ET — early in the game day. Yesterday's plays settle
+fully, but today's slate is predicted before confirmed lineups post and while
+sportsbooks are still filling in K-props, so expect the team-K% proxy instead of
+confirmed lineups and partial real-odds coverage. Each notification reports its
+own `real odds n/N | lineups n/N` readiness so you can see how ready the slate
+was; a later run (18:00–20:00 UTC) is what catches both posted.
 
 **Secrets** (repo → Settings → Secrets and variables → Actions):
 `ODDS_API_KEY`, `DISCORD_WEBHOOK_URL`. Never commit these.
 
+**Results persist back to the repo.** Each run commits `reports/predictions/` and
+the updated `reports/bets_ledger.csv` to the default branch. This is what makes
+settling work at all in CI: the settle step looks for past prediction CSVs on
+disk, so without committing them a fresh checkout finds nothing outstanding and
+the ledger — and the lifetime ROI in the Discord message — never moves. It also
+keeps the repo active, so the schedule can't be auto-disabled for inactivity.
+
 **When it fails:** GitHub emails you (the job exits non-zero on failure). Check
 **Actions → the failed run → logs**; the predictions/ledger are also uploaded as
-a run artifact. Note GitHub disables scheduled workflows after ~60 days with no
-commits, and scheduled runs can fire a little late during busy periods.
+a run artifact. Scheduled runs can fire a little late during busy periods.

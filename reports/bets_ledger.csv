@@ -97,3 +97,12 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-09,Michael Lorenzen,under 3.5,3.5,-110,(assumed),0.693,0.193,20.0,1,win,18.18
 2026-08-09,Jesús Luzardo,over 6.5,6.5,-110,(assumed),0.669,0.169,20.0,12,win,18.18
 2026-08-09,Shane Bieber,under 3.5,3.5,-110,(assumed),0.653,0.153,20.0,4,loss,-20.0
+2026-08-10,Jameson Taillon,under 4.5,4.5,130,draftkings,0.68,0.275,20.0,3,win,26.0
+2026-08-10,Bryce Elder,over 2.5,2.5,-135,draftkings,0.835,0.301,20.0,4,win,14.81
+2026-08-10,Dean Kremer,over 4.5,4.5,-125,draftkings,0.733,0.219,20.0,7,win,16.0
+2026-08-10,Reid Detmers,over 6.5,6.5,-134,draftkings,0.67,0.13,20.0,6,loss,-20.0
+2026-08-10,Jacob Lopez,under 4.5,4.5,-149,draftkings,0.667,0.102,20.0,5,loss,-20.0
+2026-08-11,Nick Martinez,under 3.5,3.5,-140,draftkings,0.69,0.139,20.0,5,loss,-20.0
+2026-08-11,Shota Imanaga,under 5.5,5.5,-154,draftkings,0.713,0.141,20.0,5,win,12.99
+2026-08-11,Bailey Ober,under 4.5,4.5,-149,draftkings,0.67,0.106,20.0,4,win,13.42
+2026-08-11,Ryan Johnson,over 3.5,3.5,-161,draftkings,0.672,0.09,20.0,5,win,12.42
