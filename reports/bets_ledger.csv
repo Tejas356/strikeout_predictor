@@ -106,3 +106,8 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-11,Shota Imanaga,under 5.5,5.5,-154,draftkings,0.713,0.141,20.0,5,win,12.99
 2026-08-11,Bailey Ober,under 4.5,4.5,-149,draftkings,0.67,0.106,20.0,4,win,13.42
 2026-08-11,Ryan Johnson,over 3.5,3.5,-161,draftkings,0.672,0.09,20.0,5,win,12.42
+2026-08-15,Logan Webb,under 7.5,7.5,-105,draftkings,0.84,0.36,20.0,7,win,19.05
+2026-08-15,Randy Dobnak,over 3.5,3.5,118,draftkings,0.677,0.244,20.0,6,win,23.6
+2026-08-15,Sean Manaea,under 7.5,7.5,-130,draftkings,0.827,0.303,20.0,7,win,15.38
+2026-08-15,Brad Lord,under 3.5,3.5,-110,(assumed),0.744,0.244,20.0,1,win,18.18
+2026-08-15,Cam Schlittler,over 6.5,6.5,-110,(assumed),0.667,0.167,20.0,7,win,18.18
