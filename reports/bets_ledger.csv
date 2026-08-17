@@ -111,3 +111,5 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-15,Sean Manaea,under 7.5,7.5,-130,draftkings,0.827,0.303,20.0,7,win,15.38
 2026-08-15,Brad Lord,under 3.5,3.5,-110,(assumed),0.744,0.244,20.0,1,win,18.18
 2026-08-15,Cam Schlittler,over 6.5,6.5,-110,(assumed),0.667,0.167,20.0,7,win,18.18
+2026-08-16,Eury Pérez,over 6.5,6.5,-125,draftkings,0.729,0.205,20.0,5,loss,-20.0
+2026-08-16,Andrew Painter,over 3.5,3.5,-139,draftkings,0.656,0.108,20.0,2,loss,-20.0
