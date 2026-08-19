@@ -116,3 +116,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-17,Cristopher Sánchez,over 6.5,6.5,-153,draftkings,0.719,0.148,20.0,6,loss,-20.0
 2026-08-17,Rhett Lowder,under 4.5,4.5,-154,fanduel,0.703,0.131,20.0,5,loss,-20.0
 2026-08-17,Walker Buehler,over 3.5,3.5,-158,draftkings,0.687,0.109,20.0,4,win,12.66
+2026-08-18,Foster Griffin,under 5.5,5.5,-108,draftkings,0.695,0.206,20.0,6,loss,-20.0
+2026-08-18,Andrew Abbott,under 4.5,4.5,-112,draftkings,0.656,0.157,20.0,6,loss,-20.0
+2026-08-18,Nick Martinez,under 3.5,3.5,-121,draftkings,0.655,0.139,20.0,5,loss,-20.0
+2026-08-18,Braxton Ashcraft,over 5.5,5.5,-136,draftkings,0.662,0.118,20.0,4,loss,-20.0
