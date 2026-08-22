@@ -123,3 +123,8 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-19,Chris Bassitt,under 4.5,4.5,-124,draftkings,0.664,0.141,20.0,6,loss,-20.0
 2026-08-20,Jacob deGrom,over 6.5,6.5,114,draftkings,0.663,0.222,20.0,10,win,22.8
 2026-08-20,Peter Lambert,over 5.5,5.5,-107,draftkings,0.722,0.234,20.0,3,loss,-20.0
+2026-08-21,Cam Schlittler,over 6.5,6.5,-125,draftkings,0.744,0.22,20.0,4,loss,-20.0
+2026-08-21,Brad Lord,under 2.5,2.5,-107,draftkings,0.68,0.193,20.0,1,win,18.69
+2026-08-21,MacKenzie Gore,over 6.5,6.5,-123,draftkings,0.722,0.201,20.0,7,win,16.26
+2026-08-21,Ryan Gusto,under 4.5,4.5,-135,draftkings,0.673,0.131,20.0,2,win,14.81
+2026-08-21,Emerson Hancock,over 4.5,4.5,-161,draftkings,0.722,0.14,20.0,6,win,12.42
