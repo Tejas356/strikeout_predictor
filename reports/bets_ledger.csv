@@ -130,3 +130,8 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-21,Emerson Hancock,over 4.5,4.5,-161,draftkings,0.722,0.14,20.0,6,win,12.42
 2026-08-22,Drew Anderson,under 4.5,4.5,-163,draftkings,0.779,0.194,20.0,4,win,12.27
 2026-08-22,Michael Soroka,over 5.5,5.5,-152,draftkings,0.65,0.081,16.91,3,loss,-16.91
+2026-08-23,Kyle Leahy,over 3.5,3.5,-115,draftkings,0.755,0.25,15.0,4,win,13.04
+2026-08-23,Shane Drohan,over 4.5,4.5,100,draftkings,0.68,0.209,15.0,5,win,15.0
+2026-08-23,Mitch Bratt,over 3.5,3.5,-147,draftkings,0.802,0.24,15.0,3,loss,-15.0
+2026-08-23,Cal Quantrill,over 3.5,3.5,-137,draftkings,0.698,0.152,15.0,6,win,10.95
+2026-08-23,Janson Junk,under 3.5,3.5,-139,draftkings,0.669,0.12,20.0,2,win,14.39
