@@ -135,3 +135,10 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-23,Mitch Bratt,over 3.5,3.5,-147,draftkings,0.802,0.24,15.0,3,loss,-15.0
 2026-08-23,Cal Quantrill,over 3.5,3.5,-137,draftkings,0.698,0.152,15.0,6,win,10.95
 2026-08-23,Janson Junk,under 3.5,3.5,-139,draftkings,0.669,0.12,20.0,2,win,14.39
+2026-08-24,Ranger Suarez,under 5.5,5.5,-134,draftkings,0.742,0.202,20.0,4,win,14.93
+2026-08-24,Braxton Ashcraft,over 4.5,4.5,-156,draftkings,0.733,0.158,15.0,2,loss,-15.0
+2026-08-24,Framber Valdez,under 4.5,4.5,-151,draftkings,0.723,0.155,20.0,0,win,13.25
+2026-08-24,Logan Gilbert,over 5.5,5.5,-158,draftkings,0.735,0.157,15.0,5,loss,-15.0
+2026-08-24,Parker Messick,over 6.5,6.5,-160,draftkings,0.723,0.142,15.0,4,loss,-15.0
+2026-08-24,Zack Wheeler,over 6.5,6.5,-157,draftkings,0.678,0.103,15.0,4,loss,-15.0
+2026-08-24,Kevin Gausman,under 5.5,5.5,-156,draftkings,0.667,0.092,20.0,6,loss,-20.0
