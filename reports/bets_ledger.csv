@@ -147,3 +147,8 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-25,Chris Bassitt,under 4.5,4.5,-169,draftkings,0.837,0.244,20.0,5,loss,-20.0
 2026-08-25,Jacob deGrom,over 6.5,6.5,-130,draftkings,0.66,0.127,15.0,2,loss,-15.0
 2026-08-25,Gage Jump,over 4.5,4.5,-158,draftkings,0.672,0.093,15.0,9,win,9.49
+2026-08-26,Bryan Woo,over 5.5,5.5,113,draftkings,0.667,0.225,20.0,5,loss,-20.0
+2026-08-26,Spencer Miles,under 3.5,3.5,-110,(assumed),0.686,0.186,15.0,1,win,13.64
+2026-08-26,Nick Lodolo,under 4.5,4.5,-108,draftkings,0.652,0.162,15.0,5,loss,-15.0
+2026-08-26,Eduardo Rodriguez,under 4.5,4.5,-152,draftkings,0.694,0.125,15.0,9,loss,-15.0
+2026-08-26,Dustin May,under 5.5,5.5,-151,draftkings,0.676,0.108,15.0,0,win,9.93
