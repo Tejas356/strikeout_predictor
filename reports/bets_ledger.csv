@@ -152,3 +152,10 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-26,Nick Lodolo,under 4.5,4.5,-108,draftkings,0.652,0.162,15.0,5,loss,-15.0
 2026-08-26,Eduardo Rodriguez,under 4.5,4.5,-152,draftkings,0.694,0.125,15.0,9,loss,-15.0
 2026-08-26,Dustin May,under 5.5,5.5,-151,draftkings,0.676,0.108,15.0,0,win,9.93
+2026-08-28,Tarik Skubal,over 6.5,6.5,-110,(assumed),0.695,0.195,12.0,7,win,10.91
+2026-08-28,Drew Anderson,under 5.5,5.5,-160,draftkings,0.793,0.218,20.0,5,win,12.5
+2026-08-28,Jacob Lopez,under 6.5,6.5,-126,draftkings,0.708,0.182,20.0,6,win,15.87
+2026-08-28,Emerson Hancock,over 3.5,3.5,-123,draftkings,0.695,0.176,12.0,1,loss,-12.0
+2026-08-28,Logan Henderson,over 6.5,6.5,-109,draftkings,0.651,0.159,12.0,7,win,11.01
+2026-08-28,Cam Schlittler,over 6.5,6.5,-128,draftkings,0.653,0.124,12.0,8,win,9.38
+2026-08-28,Reid Detmers,over 5.5,5.5,-145,draftkings,0.672,0.114,12.0,2,loss,-12.0

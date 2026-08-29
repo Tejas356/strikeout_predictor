@@ -1,0 +1,4 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Kyle Leahy,over 3.5,-151,draftkings,0.807,0.24,20.0,"over 3.5 (HIGH -159, xK=4.6)",agree
+Foster Griffin,under 5.5,-118,draftkings,0.675,0.165,20.0,"under 5.5 (MEDIUM -127, xK=4.9)",agree
+Bailey Ober,under 4.5,-151,draftkings,0.712,0.144,20.0,"under 4.5 (HIGH -164, xK=3.7)",agree
