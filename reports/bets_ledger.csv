@@ -162,3 +162,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-29,Kyle Leahy,over 3.5,3.5,-151,draftkings,0.807,0.24,20.0,3,loss,-20.0
 2026-08-29,Foster Griffin,under 5.5,5.5,-118,draftkings,0.675,0.165,20.0,4,win,16.95
 2026-08-29,Bailey Ober,under 4.5,4.5,-151,draftkings,0.712,0.144,20.0,5,loss,-20.0
+2026-08-30,Max Scherzer,under 4.5,4.5,-134,draftkings,0.724,0.184,20.0,10,loss,-20.0
+2026-08-30,Chris Bassitt,under 4.5,4.5,-160,draftkings,0.767,0.186,20.0,4,win,12.5
+2026-08-30,Matthew Liberatore,over 5.5,5.5,-137,draftkings,0.704,0.158,20.0,9,win,14.6
+2026-08-30,Zebby Matthews,over 4.5,4.5,-155,draftkings,0.711,0.138,20.0,5,win,12.9
