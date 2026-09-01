@@ -1,0 +1,31 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Randy Vásquez,San Diego Padres,Cincinnati Reds,26,2026-08-26,proxy,2026-09-01,4.46,0.684,0.473,0.302,0.171,3.5,115,draftkings,over 3.5,0.684,0.439,0.245,0.47,0.051,20.0,over 3.5
+Bryan Woo,Seattle Mariners,Boston Red Sox,28,2026-08-26,proxy,2026-09-01,5.46,0.834,0.681,0.5,0.34,4.5,-124,draftkings,over 4.5,0.681,0.523,0.158,0.231,0.066,20.0,over 4.5
+Matthew Boyd,Chicago Cubs,Milwaukee Brewers,18,2026-08-26,proxy,2026-09-01,3.92,0.563,0.345,0.198,0.109,4.5,-165,draftkings,under 4.5,0.655,0.588,0.067,0.051,0.054,13.96,under 4.5
+Troy Melton,Detroit Tigers,Minnesota Twins,16,2026-08-26,proxy,2026-09-01,4.77,0.737,0.543,0.366,0.218,4.5,126,draftkings,over 4.5,0.543,0.417,0.125,0.226,0.069,0.0,— pass —
+Gerrit Cole,New York Yankees,Los Angeles Angels,17,2026-08-27,proxy,2026-09-01,6.82,0.94,0.867,0.71,0.629,6.5,-113,draftkings,over 6.5,0.629,0.501,0.128,0.186,0.075,0.0,— pass —
+Paul Skenes,Pittsburgh Pirates,San Francisco Giants,28,2026-08-25,proxy,2026-09-01,6.29,0.909,0.809,0.639,0.516,6.5,123,draftkings,over 6.5,0.516,0.423,0.093,0.151,0.063,0.0,— pass —
+Eduardo Rodriguez,Arizona Diamondbacks,Philadelphia Phillies,27,2026-08-26,proxy,2026-09-01,4.7,0.726,0.528,0.352,0.207,4.5,106,draftkings,over 4.5,0.528,0.458,0.07,0.088,0.066,0.0,— pass —
+Grayson Rodriguez,Los Angeles Angels,New York Yankees,19,2026-08-26,proxy,2026-09-01,5.66,0.858,0.719,0.538,0.381,5.5,102,draftkings,over 5.5,0.538,0.467,0.071,0.087,0.068,0.0,— pass —
+Michael McGreevy,St. Louis Cardinals,Los Angeles Dodgers,30,2026-08-26,proxy,2026-09-01,3.7,0.513,0.298,0.161,0.088,3.5,110,draftkings,over 3.5,0.513,0.449,0.063,0.077,0.063,0.0,— pass —
+Robert Gasser,Milwaukee Brewers,Chicago Cubs,19,2026-08-26,proxy,2026-09-01,4.43,0.675,0.466,0.298,0.17,4.5,130,draftkings,over 4.5,0.466,0.411,0.055,0.071,0.065,0.0,— pass —
+Gabriel Hughes,Colorado Rockies,Baltimore Orioles,10,2026-08-27,proxy,2026-09-01,4.26,0.642,0.426,0.263,0.146,3.5,-166,draftkings,over 3.5,0.642,0.589,0.053,0.029,0.051,0.0,— pass —
+Freddy Peralta,Tampa Bay Rays,New York Mets,29,2026-08-26,proxy,2026-09-01,4.88,0.755,0.567,0.388,0.235,4.5,-141,draftkings,over 4.5,0.567,0.552,0.014,-0.032,0.06,0.0,— pass —
+MacKenzie Gore,Texas Rangers,Athletics,30,2026-08-26,proxy,2026-09-01,6.03,0.891,0.776,0.6,0.46,6.5,105,draftkings,over 6.5,0.46,0.46,0.0,-0.056,0.062,0.0,— pass —
+Brady Basso,Athletics,Texas Rangers,1,2026-06-14,proxy,2026-09-01,2.24,0.151,0.055,0.015,0.012,3.5,-110,(assumed),under 3.5,0.849,0.5,0.349,0.62,0.059,0.0,— thin data —
+Jedixson Paez,Boston Red Sox,Seattle Mariners,2,2026-03-21,proxy,2026-09-01,2.31,0.165,0.061,0.018,0.013,3.5,-110,(assumed),under 3.5,0.835,0.5,0.335,0.594,0.078,0.0,— thin data —
+Spencer Miles,Toronto Blue Jays,Cleveland Guardians,12,2026-08-05,proxy,2026-09-01,2.97,0.323,0.152,0.064,0.039,3.5,-110,(assumed),under 3.5,0.677,0.5,0.177,0.293,0.053,0.0,— thin data —
+AJ Smith-Shawver,Atlanta Braves,Washington Nationals,3,2026-08-26,proxy,2026-09-01,3.34,0.419,0.22,0.107,0.06,4.5,-155,draftkings,under 4.5,0.78,0.573,0.207,0.283,0.052,0.0,— thin data —
+Ronel Blanco,Houston Astros,Chicago White Sox,5,2026-08-15,proxy,2026-09-01,3.76,0.524,0.309,0.171,0.094,4.5,-117,draftkings,under 4.5,0.691,0.508,0.182,0.281,0.054,0.0,— thin data —
+Eric Lauer,Los Angeles Dodgers,St. Louis Cardinals,23,2026-08-26,proxy,2026-09-01,3.3,0.409,0.211,0.1,0.057,3.5,110,draftkings,under 3.5,0.591,0.449,0.142,0.242,0.058,0.0,— pass —
+Andrew Morris,Minnesota Twins,Detroit Tigers,9,2026-06-07,proxy,2026-09-01,3.1,0.357,0.175,0.078,0.046,3.5,-110,(assumed),under 3.5,0.643,0.5,0.143,0.228,0.076,0.0,— thin data —
+Sean Manaea,New York Mets,Tampa Bay Rays,27,2026-08-27,proxy,2026-09-01,4.24,0.637,0.421,0.258,0.143,4.5,-115,draftkings,under 4.5,0.579,0.504,0.075,0.083,0.065,0.0,— pass —
+Sean Burke,Chicago White Sox,Houston Astros,31,2026-08-26,proxy,2026-09-01,5.01,0.775,0.594,0.415,0.258,5.5,-123,draftkings,under 5.5,0.585,0.52,0.066,0.061,0.058,0.0,— pass —
+Randy Dobnak,Kansas City Royals,Miami Marlins,11,2026-08-26,proxy,2026-09-01,3.39,0.433,0.23,0.112,0.063,3.5,-116,draftkings,under 3.5,0.567,0.506,0.061,0.057,0.063,0.0,— pass —
+Nick Lodolo,Cincinnati Reds,San Diego Padres,20,2026-08-26,proxy,2026-09-01,4.23,0.634,0.418,0.257,0.143,4.5,-123,draftkings,under 4.5,0.582,0.52,0.062,0.055,0.061,0.0,— pass —
+Logan Webb,San Francisco Giants,Pittsburgh Pirates,25,2026-08-26,proxy,2026-09-01,4.82,0.745,0.552,0.375,0.225,5.5,-152,draftkings,under 5.5,0.625,0.569,0.056,0.036,0.069,0.0,— pass —
+Kyle Bradish,Baltimore Orioles,Colorado Rockies,29,2026-08-26,proxy,2026-09-01,4.56,0.702,0.497,0.324,0.186,4.5,106,draftkings,under 4.5,0.503,0.458,0.045,0.036,0.064,0.0,— pass —
+Tyler Phillips,Miami Marlins,Kansas City Royals,24,2026-08-25,proxy,2026-09-01,3.32,0.412,0.216,0.105,0.06,3.5,-139,draftkings,under 3.5,0.588,0.549,0.039,0.011,0.064,0.0,— pass —
+Jesús Luzardo,Philadelphia Phillies,Arizona Diamondbacks,30,2026-08-26,proxy,2026-09-01,5.71,0.863,0.728,0.546,0.39,5.5,117,draftkings,under 5.5,0.454,0.434,0.019,-0.016,0.101,0.0,— pass —
+Jake Irvin,Washington Nationals,Atlanta Braves,21,2026-08-27,proxy,2026-09-01,4.25,0.64,0.424,0.26,0.144,4.5,-146,draftkings,under 4.5,0.576,0.559,0.017,-0.029,0.06,0.0,— pass —
+Gavin Williams,Cleveland Guardians,Toronto Blue Jays,31,2026-08-25,proxy,2026-09-01,5.85,0.875,0.748,0.57,0.42,6.5,-150,draftkings,under 6.5,0.58,0.567,0.014,-0.033,0.083,0.0,— pass —

@@ -166,3 +166,6 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-30,Chris Bassitt,under 4.5,4.5,-160,draftkings,0.767,0.186,20.0,4,win,12.5
 2026-08-30,Matthew Liberatore,over 5.5,5.5,-137,draftkings,0.704,0.158,20.0,9,win,14.6
 2026-08-30,Zebby Matthews,over 4.5,4.5,-155,draftkings,0.711,0.138,20.0,5,win,12.9
+2026-08-31,Walbert Ureña,over 5.5,5.5,100,draftkings,0.656,0.184,20.0,8,win,20.0
+2026-08-31,Taj Bradley,over 5.5,5.5,-116,draftkings,0.703,0.197,20.0,9,win,17.24
+2026-08-31,Clay Holmes,under 4.5,4.5,-161,draftkings,0.652,0.07,15.21,8,loss,-15.21
