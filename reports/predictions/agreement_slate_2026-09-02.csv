@@ -1,0 +1,5 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Brad Lord,under 3.5,-110,(assumed),0.737,0.237,20.0,"under 2.5 (HIGH -185, xK=1.8)",agree
+Eury Pérez,over 4.5,-164,draftkings,0.722,0.136,20.0,"under 4.5 (MEDIUM +108, xK=5.9)",agree
+Jacob Lopez,under 5.5,-133,draftkings,0.653,0.115,20.0,"over 5.5 (MEDIUM -139, xK=7)",conflict
+Cam Schlittler,over 7.5,-144,draftkings,0.675,0.118,20.0,"under 7.5 (MEDIUM -122, xK=7.2)",conflict

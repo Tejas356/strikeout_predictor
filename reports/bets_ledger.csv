@@ -169,3 +169,6 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-08-31,Walbert Ureña,over 5.5,5.5,100,draftkings,0.656,0.184,20.0,8,win,20.0
 2026-08-31,Taj Bradley,over 5.5,5.5,-116,draftkings,0.703,0.197,20.0,9,win,17.24
 2026-08-31,Clay Holmes,under 4.5,4.5,-161,draftkings,0.652,0.07,15.21,8,loss,-15.21
+2026-09-01,Randy Vásquez,over 3.5,3.5,115,draftkings,0.684,0.245,20.0,3,loss,-20.0
+2026-09-01,Bryan Woo,over 4.5,4.5,-124,draftkings,0.681,0.158,20.0,7,win,16.13
+2026-09-01,Matthew Boyd,under 4.5,4.5,-165,draftkings,0.655,0.067,13.96,3,win,8.46
