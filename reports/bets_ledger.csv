@@ -172,3 +172,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-01,Randy Vásquez,over 3.5,3.5,115,draftkings,0.684,0.245,20.0,3,loss,-20.0
 2026-09-01,Bryan Woo,over 4.5,4.5,-124,draftkings,0.681,0.158,20.0,7,win,16.13
 2026-09-01,Matthew Boyd,under 4.5,4.5,-165,draftkings,0.655,0.067,13.96,3,win,8.46
+2026-09-02,Brad Lord,under 3.5,3.5,-110,(assumed),0.737,0.237,20.0,6,loss,-20.0
+2026-09-02,Eury Pérez,over 4.5,4.5,-164,draftkings,0.722,0.136,20.0,3,loss,-20.0
+2026-09-02,Jacob Lopez,under 5.5,5.5,-133,draftkings,0.653,0.115,20.0,7,loss,-20.0
+2026-09-02,Cam Schlittler,over 7.5,7.5,-144,draftkings,0.675,0.118,20.0,9,win,13.89
