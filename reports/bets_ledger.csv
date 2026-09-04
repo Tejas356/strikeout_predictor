@@ -176,3 +176,6 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-02,Eury Pérez,over 4.5,4.5,-164,draftkings,0.722,0.136,20.0,3,loss,-20.0
 2026-09-02,Jacob Lopez,under 5.5,5.5,-133,draftkings,0.653,0.115,20.0,7,loss,-20.0
 2026-09-02,Cam Schlittler,over 7.5,7.5,-144,draftkings,0.675,0.118,20.0,9,win,13.89
+2026-09-03,Sandy Alcantara,over 3.5,3.5,-150,draftkings,0.664,0.098,20.0,2,loss,-20.0
+2026-09-03,Jake Bennett,over 4.5,4.5,-159,draftkings,0.665,0.085,18.81,7,win,11.83
+2026-09-03,Tanner Bibee,under 4.5,4.5,-158,draftkings,0.661,0.083,19.52,4,win,12.35
