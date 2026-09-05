@@ -179,3 +179,8 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-03,Sandy Alcantara,over 3.5,3.5,-150,draftkings,0.664,0.098,20.0,2,loss,-20.0
 2026-09-03,Jake Bennett,over 4.5,4.5,-159,draftkings,0.665,0.085,18.81,7,win,11.83
 2026-09-03,Tanner Bibee,under 4.5,4.5,-158,draftkings,0.661,0.083,19.52,4,win,12.35
+2026-09-04,Cristopher Sánchez,over 6.5,6.5,-114,draftkings,0.665,0.163,20.0,5,loss,-20.0
+2026-09-04,Merrill Kelly,under 4.5,4.5,-142,draftkings,0.715,0.161,20.0,4,win,14.08
+2026-09-04,Shane Baz,over 4.5,4.5,-161,draftkings,0.676,0.094,20.0,6,win,12.42
+2026-09-04,Janson Junk,under 3.5,3.5,-147,draftkings,0.652,0.091,20.0,4,loss,-20.0
+2026-09-04,Andre Pallante,over 2.5,2.5,-165,draftkings,0.681,0.093,20.0,1,loss,-20.0
