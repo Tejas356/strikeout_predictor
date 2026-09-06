@@ -184,3 +184,8 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-04,Shane Baz,over 4.5,4.5,-161,draftkings,0.676,0.094,20.0,6,win,12.42
 2026-09-04,Janson Junk,under 3.5,3.5,-147,draftkings,0.652,0.091,20.0,4,loss,-20.0
 2026-09-04,Andre Pallante,over 2.5,2.5,-165,draftkings,0.681,0.093,20.0,1,loss,-20.0
+2026-09-05,Zack Wheeler,over 6.5,6.5,-109,draftkings,0.761,0.269,20.0,9,win,18.35
+2026-09-05,Braxton Ashcraft,over 5.5,5.5,-134,draftkings,0.735,0.195,20.0,9,win,14.93
+2026-09-05,Javier Assad,under 3.5,3.5,-132,draftkings,0.717,0.181,20.0,3,win,15.15
+2026-09-05,Chris Bassitt,under 4.5,4.5,-159,draftkings,0.749,0.169,20.0,6,loss,-20.0
+2026-09-05,Anthony Kay,over 3.5,3.5,-162,draftkings,0.681,0.097,20.0,3,loss,-20.0
