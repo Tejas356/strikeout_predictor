@@ -189,3 +189,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-05,Javier Assad,under 3.5,3.5,-132,draftkings,0.717,0.181,20.0,3,win,15.15
 2026-09-05,Chris Bassitt,under 4.5,4.5,-159,draftkings,0.749,0.169,20.0,6,loss,-20.0
 2026-09-05,Anthony Kay,over 3.5,3.5,-162,draftkings,0.681,0.097,20.0,3,loss,-20.0
+2026-09-06,Kyle Leahy,over 2.5,2.5,106,draftkings,0.688,0.23,20.0,6,win,21.2
+2026-09-06,Paul Skenes,over 6.5,6.5,-117,draftkings,0.659,0.151,20.0,2,loss,-20.0
+2026-09-06,Tanner Gordon,under 4.5,4.5,-168,draftkings,0.703,0.112,20.0,4,win,11.9
+2026-09-06,Randy Dobnak,over 2.5,2.5,-159,draftkings,0.671,0.091,20.0,3,win,12.58
