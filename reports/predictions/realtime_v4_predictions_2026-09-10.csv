@@ -1,0 +1,11 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Zack Wheeler,Philadelphia Phillies,Houston Astros,23,2026-09-05,confirmed,2026-09-10,7.38,0.961,0.911,0.772,0.737,6.5,-131,draftkings,over 6.5,0.737,0.535,0.202,0.3,0.07,20.0,over 6.5
+Logan Gilbert,Seattle Mariners,Texas Rangers,31,2026-09-04,proxy,2026-09-10,7.2,0.955,0.898,0.753,0.706,6.5,-136,draftkings,over 6.5,0.706,0.544,0.162,0.225,0.072,20.0,over 6.5
+Cristian Javier,Houston Astros,Philadelphia Phillies,13,2026-09-04,confirmed,2026-09-10,4.34,0.657,0.444,0.279,0.156,3.5,-147,draftkings,over 3.5,0.657,0.561,0.096,0.104,0.066,20.0,over 3.5
+Max Fried,New York Yankees,Colorado Rockies,20,2026-09-04,proxy,2026-09-10,5.76,0.863,0.73,0.553,0.402,5.5,-105,draftkings,over 5.5,0.553,0.482,0.07,0.079,0.057,0.0,— pass —
+Ryan Feltner,Colorado Rockies,New York Yankees,27,2026-09-04,proxy,2026-09-10,4.67,0.721,0.522,0.346,0.203,4.5,-104,draftkings,over 4.5,0.522,0.48,0.041,0.023,0.058,0.0,— pass —
+Jared Jones,Pittsburgh Pirates,Chicago White Sox,17,2026-09-04,proxy,2026-09-10,6.09,0.895,0.784,0.609,0.473,5.5,-157,draftkings,over 5.5,0.609,0.577,0.032,-0.003,0.064,0.0,— pass —
+Jacob deGrom,Texas Rangers,Seattle Mariners,28,2026-09-05,proxy,2026-09-10,6.31,0.912,0.813,0.643,0.522,6.5,-114,draftkings,over 6.5,0.522,0.502,0.02,-0.021,0.07,0.0,— pass —
+Hagen Smith,Chicago White Sox,Pittsburgh Pirates,2,2026-08-25,proxy,2026-09-10,2.47,0.201,0.079,0.025,0.018,3.5,-110,(assumed),under 3.5,0.799,0.5,0.299,0.526,0.081,0.0,— thin data —
+Nick Martinez,Tampa Bay Rays,Atlanta Braves,31,2026-09-04,confirmed,2026-09-10,3.58,0.483,0.271,0.141,0.078,3.5,145,draftkings,under 3.5,0.517,0.382,0.135,0.267,0.06,0.0,— pass —
+Martín Pérez,Atlanta Braves,Tampa Bay Rays,27,2026-09-05,confirmed,2026-09-10,3.16,0.373,0.185,0.083,0.048,3.5,-110,(assumed),under 3.5,0.627,0.5,0.127,0.197,0.057,0.0,— pass —
