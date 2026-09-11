@@ -1,0 +1,4 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Taj Bradley,over 5.5,119,draftkings,0.683,0.252,20.0,-,no-pick
+Cade Cavalli,over 6.5,-149,draftkings,0.737,0.173,20.0,-,no-pick
+Max Scherzer,under 5.5,-150,draftkings,0.724,0.159,20.0,-,no-pick
