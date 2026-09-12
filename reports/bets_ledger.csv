@@ -208,3 +208,6 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-10,Zack Wheeler,over 6.5,6.5,-131,draftkings,0.737,0.202,20.0,9,win,15.27
 2026-09-10,Logan Gilbert,over 6.5,6.5,-136,draftkings,0.706,0.162,20.0,11,win,14.71
 2026-09-10,Cristian Javier,over 3.5,3.5,-147,draftkings,0.657,0.096,20.0,5,win,13.61
+2026-09-11,Taj Bradley,over 5.5,5.5,119,draftkings,0.683,0.252,20.0,6,win,23.8
+2026-09-11,Cade Cavalli,over 6.5,6.5,-149,draftkings,0.737,0.173,20.0,9,win,13.42
+2026-09-11,Max Scherzer,under 5.5,5.5,-150,draftkings,0.724,0.159,20.0,3,win,13.33

@@ -1,0 +1,7 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Kyle Leahy,over 3.5,138,fanduel,0.748,0.351,16.84,-,no-pick
+Connor Prielipp,over 4.5,124,draftkings,0.748,0.326,16.84,-,no-pick
+Sean Newcomb,under 3.5,-110,(assumed),0.823,0.323,20.0,-,no-pick
+Ranger Suarez,under 4.5,123,draftkings,0.7,0.277,20.0,-,no-pick
+Tyler Mahle,over 4.5,-113,draftkings,0.737,0.237,16.84,-,no-pick
+Peter Lambert,over 3.5,-168,draftkings,0.654,0.062,9.47,-,no-pick
