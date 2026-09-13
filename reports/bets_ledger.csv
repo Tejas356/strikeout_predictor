@@ -211,3 +211,9 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-11,Taj Bradley,over 5.5,5.5,119,draftkings,0.683,0.252,20.0,6,win,23.8
 2026-09-11,Cade Cavalli,over 6.5,6.5,-149,draftkings,0.737,0.173,20.0,9,win,13.42
 2026-09-11,Max Scherzer,under 5.5,5.5,-150,draftkings,0.724,0.159,20.0,3,win,13.33
+2026-09-12,Kyle Leahy,over 3.5,3.5,138,fanduel,0.748,0.351,16.84,4,win,23.24
+2026-09-12,Connor Prielipp,over 4.5,4.5,124,draftkings,0.748,0.326,16.84,1,loss,-16.84
+2026-09-12,Sean Newcomb,under 3.5,3.5,-110,(assumed),0.823,0.323,20.0,4,loss,-20.0
+2026-09-12,Ranger Suarez,under 4.5,4.5,123,draftkings,0.7,0.277,20.0,8,loss,-20.0
+2026-09-12,Tyler Mahle,over 4.5,4.5,-113,draftkings,0.737,0.237,16.84,3,loss,-16.84
+2026-09-12,Peter Lambert,over 3.5,3.5,-168,draftkings,0.654,0.062,9.47,4,win,5.64
