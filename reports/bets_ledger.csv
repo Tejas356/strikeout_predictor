@@ -217,3 +217,11 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-12,Ranger Suarez,under 4.5,4.5,123,draftkings,0.7,0.277,20.0,8,loss,-20.0
 2026-09-12,Tyler Mahle,over 4.5,4.5,-113,draftkings,0.737,0.237,16.84,3,loss,-16.84
 2026-09-12,Peter Lambert,over 3.5,3.5,-168,draftkings,0.654,0.062,9.47,4,win,5.64
+2026-09-13,Chase Burns,over 3.5,3.5,-145,draftkings,0.919,0.361,15.0,5,win,10.34
+2026-09-13,Payton Tolle,over 6.5,6.5,103,draftkings,0.723,0.259,15.0,7,win,15.45
+2026-09-13,Cam Schlittler,over 7.5,7.5,113,draftkings,0.662,0.219,15.0,8,win,16.95
+2026-09-13,Matthew Boyd,under 5.5,5.5,-110,draftkings,0.718,0.224,15.0,3,win,13.64
+2026-09-13,Nick Pivetta,under 4.5,4.5,-101,draftkings,0.661,0.187,15.0,5,loss,-15.0
+2026-09-13,Tanner Bibee,under 4.5,4.5,-156,draftkings,0.797,0.222,15.0,7,loss,-15.0
+2026-09-13,Michael McGreevy,over 3.5,3.5,-156,draftkings,0.759,0.184,15.0,6,win,9.62
+2026-09-13,Eury Pérez,under 5.5,5.5,-136,draftkings,0.67,0.126,15.0,5,win,11.03
