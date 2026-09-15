@@ -225,3 +225,6 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-13,Tanner Bibee,under 4.5,4.5,-156,draftkings,0.797,0.222,15.0,7,loss,-15.0
 2026-09-13,Michael McGreevy,over 3.5,3.5,-156,draftkings,0.759,0.184,15.0,6,win,9.62
 2026-09-13,Eury Pérez,under 5.5,5.5,-136,draftkings,0.67,0.126,15.0,5,win,11.03
+2026-09-14,Sean Newcomb,under 3.5,3.5,-110,(assumed),0.727,0.227,20.0,0,win,18.18
+2026-09-14,Dean Kremer,over 4.5,4.5,-144,draftkings,0.71,0.154,20.0,5,win,13.89
+2026-09-14,Landen Roupp,under 4.5,4.5,-146,draftkings,0.667,0.106,20.0,4,win,13.7
