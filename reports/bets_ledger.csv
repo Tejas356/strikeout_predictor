@@ -236,3 +236,7 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-15,Bailey Ober,under 4.5,4.5,-163,draftkings,0.707,0.121,20.0,3,win,12.27
 2026-09-16,Matthew Liberatore,over 3.5,3.5,-160,draftkings,0.872,0.297,20.0,2,loss,-20.0
 2026-09-16,Merrill Kelly,under 4.5,4.5,-146,draftkings,0.692,0.133,20.0,9,loss,-20.0
+2026-09-17,Justin Wrobleski,over 4.5,4.5,140,bovada,0.717,0.326,20.0,3,loss,-20.0
+2026-09-17,Walbert Ureña,over 4.5,4.5,-150,draftkings,0.792,0.226,20.0,9,win,13.33
+2026-09-17,Taj Bradley,over 6.5,6.5,-133,draftkings,0.697,0.157,20.0,9,win,15.04
+2026-09-17,Seth Lugo,under 4.5,4.5,-163,draftkings,0.7,0.114,20.0,5,loss,-20.0
