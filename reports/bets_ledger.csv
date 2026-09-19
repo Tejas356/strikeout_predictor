@@ -240,3 +240,10 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-17,Walbert Ureña,over 4.5,4.5,-150,draftkings,0.792,0.226,20.0,9,win,13.33
 2026-09-17,Taj Bradley,over 6.5,6.5,-133,draftkings,0.697,0.157,20.0,9,win,15.04
 2026-09-17,Seth Lugo,under 4.5,4.5,-163,draftkings,0.7,0.114,20.0,5,loss,-20.0
+2026-09-18,Chase Burns,over 3.5,3.5,-136,draftkings,0.94,0.397,10.0,4,win,7.35
+2026-09-18,Kumar Rocker,over 3.5,3.5,-138,draftkings,0.711,0.164,10.0,2,loss,-10.0
+2026-09-18,Eduardo Rodriguez,over 4.5,4.5,-149,draftkings,0.714,0.149,10.0,5,win,6.71
+2026-09-18,Bryan Woo,over 4.5,4.5,-141,draftkings,0.696,0.145,10.0,4,loss,-10.0
+2026-09-18,Kyle Leahy,over 2.5,2.5,-145,draftkings,0.688,0.129,10.0,1,loss,-10.0
+2026-09-18,Ranger Suarez,under 4.5,4.5,-154,draftkings,0.697,0.124,20.0,5,loss,-20.0
+2026-09-18,Tyler Glasnow,over 6.5,6.5,-148,draftkings,0.682,0.119,10.0,10,win,6.76
