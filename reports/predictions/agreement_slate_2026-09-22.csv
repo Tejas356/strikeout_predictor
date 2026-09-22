@@ -1,0 +1,8 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Payton Tolle,over 5.5,120,draftkings,0.752,0.323,20.0,"over 5.5 (HIGH -111, xK=6.4)",agree
+Carlos Rodón,under 6.5,100,bovada,0.826,0.357,15.0,"over 5.5 (HIGH , xK=6.5)",conflict
+Riley Cornelio,under 3.5,-110,(assumed),0.752,0.252,15.0,-,no-pick
+Zack Wheeler,over 6.5,-114,draftkings,0.683,0.181,20.0,"over 6.5 (MEDIUM -123, xK=7.2)",agree
+JR Ritchie,over 4.5,-142,draftkings,0.714,0.16,20.0,"under 4.5 (MEDIUM -122, xK=3.9)",conflict
+Janson Junk,under 3.5,-174,draftkings,0.733,0.134,15.0,-,no-pick
+Max Fried,under 5.5,-174,fanduel,0.709,0.109,15.0,"over 5.5 (MEDIUM , xK=5.8)",conflict
