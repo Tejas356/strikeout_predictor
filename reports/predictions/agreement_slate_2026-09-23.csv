@@ -1,0 +1,7 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Framber Valdez,under 7.5,-125,draftkings,0.89,0.375,15.0,"under 5.5 (MEDIUM -161, xK=4.3)",agree
+Lake Bachar,under 3.5,-110,(assumed),0.791,0.291,15.0,"under 1.5 (HIGH +136, xK=2.4)",agree
+Walbert Ureña,over 4.5,-130,draftkings,0.69,0.157,20.0,"over 5.5 (MEDIUM +120, xK=5.3)",agree
+Foster Griffin,under 4.5,-127,draftkings,0.661,0.133,15.0,"under 4.5 (MEDIUM -143, xK=4)",agree
+Gerrit Cole,under 5.5,-164,draftkings,0.68,0.093,15.0,"over 4.5 (MEDIUM -169, xK=5.9)",conflict
+Chris Bassitt,over 2.5,-165,draftkings,0.675,0.097,19.96,-,no-pick
