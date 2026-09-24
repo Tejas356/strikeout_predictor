@@ -1,0 +1,24 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Nick Pivetta,San Diego Padres,Los Angeles Dodgers,10,2026-09-18,proxy,2026-09-24,3.34,0.417,0.22,0.107,0.061,4.5,-113,draftkings,under 4.5,0.78,0.5,0.28,0.471,0.049,20.0,under 4.5
+Tyler Glasnow,Los Angeles Dodgers,San Diego Padres,14,2026-09-18,proxy,2026-09-24,7.26,0.957,0.903,0.76,0.716,6.5,-144,draftkings,over 6.5,0.716,0.557,0.159,0.213,0.077,20.0,over 6.5
+Tyler Mahle,Atlanta Braves,Cincinnati Reds,29,2026-09-18,proxy,2026-09-24,6.86,0.942,0.871,0.716,0.639,5.5,-150,draftkings,over 5.5,0.716,0.566,0.15,0.193,0.063,20.0,over 5.5
+Bryan Woo,Seattle Mariners,Los Angeles Angels,32,2026-09-18,proxy,2026-09-24,7.15,0.954,0.895,0.748,0.696,6.5,-146,draftkings,over 6.5,0.696,0.559,0.137,0.173,0.082,20.0,over 6.5
+Kumar Rocker,Texas Rangers,New York Mets,32,2026-09-18,confirmed,2026-09-24,5.19,0.798,0.628,0.448,0.289,4.5,110,draftkings,over 4.5,0.628,0.449,0.179,0.319,0.06,0.0,— pass —
+Peter Lambert,Houston Astros,Athletics,30,2026-09-18,proxy,2026-09-24,4.95,0.765,0.581,0.401,0.246,4.5,121,draftkings,over 4.5,0.581,0.427,0.153,0.283,0.058,0.0,— pass —
+Cam Schlittler,New York Yankees,Tampa Bay Rays,34,2026-09-19,proxy,2026-09-24,6.62,0.931,0.849,0.687,0.589,6.5,112,draftkings,over 6.5,0.589,0.445,0.145,0.25,0.099,0.0,— pass —
+Tyler Phillips,Miami Marlins,Chicago Cubs,28,2026-09-18,confirmed,2026-09-24,4.07,0.596,0.38,0.228,0.126,3.5,105,draftkings,over 3.5,0.596,0.46,0.136,0.222,0.053,0.0,— pass —
+David Sandlin,Chicago White Sox,Kansas City Royals,7,2026-09-18,confirmed,2026-09-24,4.07,0.599,0.382,0.228,0.126,3.5,103,draftkings,over 3.5,0.599,0.464,0.135,0.216,0.063,0.0,— thin data —
+Randy Dobnak,Kansas City Royals,Chicago White Sox,15,2026-09-18,confirmed,2026-09-24,4.15,0.617,0.4,0.241,0.133,3.5,-107,draftkings,over 3.5,0.617,0.488,0.129,0.194,0.066,0.0,— pass —
+Brady Singer,Cincinnati Reds,Atlanta Braves,35,2026-09-17,proxy,2026-09-24,4.24,0.637,0.421,0.259,0.144,3.5,-128,draftkings,over 3.5,0.637,0.529,0.108,0.134,0.058,0.0,— pass —
+Kyle Leahy,St. Louis Cardinals,Pittsburgh Pirates,32,2026-09-18,confirmed,2026-09-24,3.99,0.577,0.362,0.213,0.118,3.5,-110,(assumed),over 3.5,0.577,0.5,0.077,0.101,0.055,0.0,— pass —
+Shane Drohan,Milwaukee Brewers,Philadelphia Phillies,26,2026-09-12,proxy,2026-09-24,4.87,0.75,0.562,0.385,0.235,4.5,-110,(assumed),over 4.5,0.562,0.5,0.062,0.072,0.061,0.0,— pass —
+Ian Seymour,Tampa Bay Rays,New York Yankees,22,2026-09-18,proxy,2026-09-24,6.23,0.905,0.802,0.63,0.504,5.5,-151,draftkings,over 5.5,0.63,0.567,0.063,0.047,0.068,0.0,— pass —
+Matthew Boyd,Chicago Cubs,Miami Marlins,22,2026-09-19,confirmed,2026-09-24,4.63,0.715,0.513,0.338,0.196,4.5,-102,draftkings,over 4.5,0.513,0.476,0.037,0.015,0.061,0.0,— pass —
+Eduardo Rodriguez,Arizona Diamondbacks,Colorado Rockies,31,2026-09-18,confirmed,2026-09-24,4.86,0.753,0.563,0.384,0.231,4.5,-129,draftkings,over 4.5,0.563,0.531,0.032,-0.001,0.082,0.0,— pass —
+Andrew Painter,Philadelphia Phillies,Milwaukee Brewers,26,2026-09-19,proxy,2026-09-24,5.27,0.813,0.648,0.466,0.304,5.5,112,draftkings,over 5.5,0.466,0.446,0.02,-0.013,0.063,0.0,— pass —
+Mason Barnett,Athletics,Houston Astros,11,2026-09-18,proxy,2026-09-24,3.66,0.502,0.288,0.153,0.084,3.5,-109,draftkings,over 3.5,0.502,0.492,0.01,-0.038,0.062,0.0,— pass —
+Grayson Rodriguez,Los Angeles Angels,Seattle Mariners,23,2026-09-18,proxy,2026-09-24,4.69,0.724,0.525,0.349,0.204,4.5,142,draftkings,under 4.5,0.475,0.39,0.085,0.15,0.067,0.0,— pass —
+Zac Thornton,New York Mets,Texas Rangers,16,2026-09-18,confirmed,2026-09-24,4.17,0.621,0.404,0.246,0.136,4.5,-110,(assumed),under 4.5,0.596,0.5,0.096,0.137,0.063,0.0,— pass —
+Tanner Gordon,Colorado Rockies,Arizona Diamondbacks,24,2026-09-17,confirmed,2026-09-24,3.44,0.444,0.24,0.12,0.067,3.5,-109,draftkings,under 3.5,0.556,0.492,0.064,0.066,0.052,0.0,— pass —
+Paul Skenes,Pittsburgh Pirates,St. Louis Cardinals,32,2026-09-18,confirmed,2026-09-24,5.26,0.812,0.646,0.463,0.301,5.5,-110,(assumed),under 5.5,0.537,0.5,0.037,0.024,0.068,0.0,— pass —
+Ranger Suarez,Boston Red Sox,Cleveland Guardians,29,2026-09-18,proxy,2026-09-24,4.22,0.633,0.417,0.256,0.142,4.5,-138,draftkings,under 4.5,0.583,0.547,0.036,0.006,0.062,0.0,— pass —

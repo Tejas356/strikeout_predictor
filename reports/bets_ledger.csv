@@ -258,3 +258,9 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-09-22,JR Ritchie,over 4.5,4.5,-142,draftkings,0.714,0.16,20.0,8,win,14.08
 2026-09-22,Janson Junk,under 3.5,3.5,-174,draftkings,0.733,0.134,15.0,6,loss,-15.0
 2026-09-22,Max Fried,under 5.5,5.5,-174,fanduel,0.709,0.109,15.0,4,win,8.62
+2026-09-23,Framber Valdez,under 7.5,7.5,-125,draftkings,0.89,0.375,15.0,6,win,12.0
+2026-09-23,Lake Bachar,under 3.5,3.5,-110,(assumed),0.791,0.291,15.0,2,win,13.64
+2026-09-23,Walbert Ureña,over 4.5,4.5,-130,draftkings,0.69,0.157,20.0,2,loss,-20.0
+2026-09-23,Foster Griffin,under 4.5,4.5,-127,draftkings,0.661,0.133,15.0,7,loss,-15.0
+2026-09-23,Gerrit Cole,under 5.5,5.5,-164,draftkings,0.68,0.093,15.0,8,loss,-15.0
+2026-09-23,Chris Bassitt,over 2.5,2.5,-165,draftkings,0.675,0.097,19.96,2,loss,-19.96
