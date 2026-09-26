@@ -1,0 +1,7 @@
+pitcher_name,call,odds,book,model_prob,edge,stake,oddsindex,agree
+Trey Yesavage,over 3.5,-121,draftkings,0.918,0.401,20.0,-,no-pick
+Dustin May,over 2.5,-134,draftkings,0.899,0.359,20.0,-,no-pick
+Brent Suter,under 3.5,-110,(assumed),0.803,0.303,20.0,-,no-pick
+Bailey Ober,under 4.5,-143,draftkings,0.753,0.198,20.0,-,no-pick
+Davis Martin,under 4.5,-162,draftkings,0.724,0.141,20.0,-,no-pick
+Michael Wacha,over 3.5,-161,draftkings,0.691,0.109,20.0,-,no-pick
