@@ -1,0 +1,9 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Payton Tolle,Boston Red Sox,New York Yankees,28,2026-09-22,proxy,2026-09-29,7.15,0.953,0.895,0.748,0.695,6.5,-145,draftkings,over 6.5,0.695,0.558,0.137,0.174,0.069,20.0,over 6.5
+Jesús Luzardo,Philadelphia Phillies,Atlanta Braves,32,2026-09-07,confirmed,2026-09-29,6.23,0.906,0.803,0.631,0.503,3.5,100,bovada,over 3.5,0.906,0.469,0.437,0.813,0.056,0.0,— thin data —
+AJ Blubaugh,Houston Astros,Chicago White Sox,8,2026-07-27,confirmed,2026-09-29,3.15,0.369,0.184,0.083,0.048,1.5,-171,mybookieag,over 1.5,0.803,0.585,0.218,0.272,0.044,0.0,— thin data —
+Cam Schlittler,New York Yankees,Boston Red Sox,35,2026-09-24,proxy,2026-09-29,7.59,0.967,0.924,0.791,0.773,7.5,115,draftkings,over 7.5,0.573,0.439,0.134,0.231,0.072,0.0,— pass —
+Hagen Smith,Chicago White Sox,Houston Astros,2,2026-08-25,confirmed,2026-09-29,2.51,0.21,0.084,0.028,0.019,1.5,-138,mybookieag,over 1.5,0.655,0.537,0.118,0.13,0.04,0.0,— thin data —
+Michael King,San Diego Padres,Chicago Cubs,36,2026-09-22,proxy,2026-09-29,4.68,0.722,0.523,0.348,0.204,4.5,103,draftkings,over 4.5,0.523,0.464,0.059,0.062,0.058,0.0,— pass —
+Chris Sale,Atlanta Braves,Philadelphia Phillies,31,2026-09-23,confirmed,2026-09-29,7.72,0.97,0.93,0.802,0.792,7.5,-130,draftkings,over 7.5,0.595,0.525,0.07,0.052,0.076,0.0,— pass —
+Matthew Boyd,Chicago Cubs,San Diego Padres,23,2026-09-24,proxy,2026-09-29,3.63,0.495,0.282,0.149,0.082,3.5,-102,draftkings,over 3.5,0.495,0.476,0.019,-0.02,0.058,0.0,— pass —
