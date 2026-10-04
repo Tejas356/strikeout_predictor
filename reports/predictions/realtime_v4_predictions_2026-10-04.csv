@@ -1,0 +1,4 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Logan Henderson,Milwaukee Brewers,San Diego Padres,17,2026-09-23,confirmed,2026-10-04,6.18,0.901,0.794,0.622,0.493,6.5,131,draftkings,over 6.5,0.493,0.408,0.084,0.138,0.061,0.0,— pass —
+Blake Snell,Los Angeles Dodgers,Atlanta Braves,8,2026-09-26,proxy,2026-10-04,6.81,0.939,0.866,0.708,0.627,6.5,-134,draftkings,over 6.5,0.627,0.54,0.087,0.096,0.075,0.0,— pass —
+Michael King,San Diego Padres,Milwaukee Brewers,37,2026-09-29,confirmed,2026-10-04,5.11,0.79,0.615,0.433,0.273,4.5,-148,draftkings,over 4.5,0.615,0.563,0.052,0.03,0.063,0.0,— pass —
