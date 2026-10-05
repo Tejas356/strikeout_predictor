@@ -1,0 +1,5 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Freddy Peralta,Tampa Bay Rays,New York Yankees,34,2026-09-25,confirmed,2026-10-05,5.73,0.864,0.73,0.549,0.394,4.5,-145,draftkings,over 4.5,0.73,0.559,0.171,0.233,0.064,20.0,over 4.5
+Anthony Kay,Chicago White Sox,Cleveland Guardians,39,2026-09-27,confirmed,2026-10-05,3.13,0.364,0.179,0.08,0.047,1.5,120,bovada,over 1.5,0.799,0.428,0.371,0.758,0.044,0.0,— off-range line —
+Gavin Williams,Cleveland Guardians,Chicago White Sox,36,2026-09-25,confirmed,2026-10-05,8.21,0.98,0.952,0.84,0.858,8.5,115,draftkings,over 8.5,0.51,0.433,0.076,0.096,0.063,0.0,— off-range line —
+Cam Schlittler,New York Yankees,Tampa Bay Rays,36,2026-09-29,confirmed,2026-10-05,6.58,0.928,0.844,0.68,0.579,6.5,-118,draftkings,over 6.5,0.579,0.51,0.068,0.069,0.081,0.0,— pass —
