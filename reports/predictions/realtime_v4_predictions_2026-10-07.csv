@@ -1,0 +1,7 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Tyler Mahle,Atlanta Braves,Los Angeles Dodgers,31,2026-09-30,confirmed,2026-10-07,5.37,0.824,0.666,0.484,0.323,3.5,-168,draftkings,over 3.5,0.824,0.592,0.232,0.314,0.055,20.0,over 3.5
+Walker Buehler,San Diego Padres,Milwaukee Brewers,36,2026-09-26,proxy,2026-10-07,3.79,0.534,0.318,0.177,0.097,2.5,-150,draftkings,over 2.5,0.673,0.567,0.106,0.122,0.038,20.0,over 2.5
+Sean Newcomb,Chicago White Sox,Cleveland Guardians,13,2026-10-05,confirmed,2026-10-07,2.12,0.127,0.043,0.011,0.009,1.5,139,mybookieag,over 1.5,0.528,0.387,0.141,0.262,0.146,0.0,— off-range line —
+Nick Martinez,Tampa Bay Rays,New York Yankees,35,2026-09-27,proxy,2026-10-07,3.67,0.504,0.29,0.155,0.085,2.5,-167,draftkings,over 2.5,0.646,0.59,0.056,0.032,0.048,0.0,— pass —
+Tyler Glasnow,Los Angeles Dodgers,Atlanta Braves,15,2026-09-24,confirmed,2026-10-07,6.27,0.909,0.808,0.637,0.512,6.5,-104,draftkings,over 6.5,0.512,0.481,0.03,0.003,0.101,0.0,— pass —
+Max Fried,New York Yankees,Tampa Bay Rays,24,2026-09-30,proxy,2026-10-07,4.29,0.646,0.432,0.269,0.15,4.5,-116,draftkings,under 4.5,0.568,0.506,0.062,0.058,0.082,0.0,— pass —
