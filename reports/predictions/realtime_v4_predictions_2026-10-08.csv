@@ -1,0 +1,3 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Parker Messick,Cleveland Guardians,Chicago White Sox,37,2026-10-03,proxy,2026-10-08,6.56,0.926,0.84,0.676,0.575,5.5,-150,draftkings,over 5.5,0.676,0.567,0.11,0.127,0.065,20.0,over 5.5
+Hagen Smith,Chicago White Sox,Cleveland Guardians,3,2026-10-03,proxy,2026-10-08,2.81,0.281,0.125,0.048,0.03,1.5,-174,draftkings,over 1.5,0.733,0.6,0.133,0.154,0.102,0.0,— thin data —

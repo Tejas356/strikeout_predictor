@@ -294,3 +294,5 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-10-06,Dustin May,over 2.5,2.5,-156,draftkings,0.823,0.248,20.0,3,win,12.82
 2026-10-06,Yoshinobu Yamamoto,under 6.5,6.5,-143,draftkings,0.719,0.164,20.0,10,loss,-20.0
 2026-10-06,Chris Sale,over 6.5,6.5,-152,draftkings,0.658,0.088,15.31,7,win,10.07
+2026-10-07,Tyler Mahle,over 3.5,3.5,-168,draftkings,0.824,0.232,20.0,4,win,11.9
+2026-10-07,Walker Buehler,over 2.5,2.5,-150,draftkings,0.673,0.106,20.0,0,loss,-20.0
