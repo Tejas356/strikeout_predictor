@@ -1,0 +1,3 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Gavin Williams,Cleveland Guardians,Chicago White Sox,37,2026-10-05,proxy,2026-10-10,8.09,0.978,0.948,0.833,0.845,6.5,-128,draftkings,over 6.5,0.845,0.529,0.316,0.505,0.075,20.0,over 6.5
+Sean Burke,Chicago White Sox,Cleveland Guardians,38,2026-10-05,proxy,2026-10-10,4.98,0.77,0.587,0.408,0.252,3.5,-137,draftkings,over 3.5,0.77,0.545,0.225,0.332,0.089,20.0,over 3.5
