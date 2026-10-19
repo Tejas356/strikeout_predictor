@@ -1,0 +1,2 @@
+pitcher_name,team,opponent,n_starts,last_start,lineup,game_date,pred_strikeouts,prob_over_3.5,prob_over_4.5,prob_over_5.5,prob_over_6.5,line,odds,book,call,model_prob,fair_prob,edge,EV,unc,stake,PLAY
+Freddy Peralta,Tampa Bay Rays,Cleveland Guardians,36,2026-10-13,proxy,2026-10-19,4.82,0.748,0.556,0.376,0.224,3.5,-170,draftkings,over 3.5,0.748,0.595,0.154,0.189,0.06,20.0,over 3.5
