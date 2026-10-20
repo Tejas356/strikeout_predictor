@@ -303,3 +303,4 @@ game_date,pitcher_name,call,line,odds,book,model_prob,edge,stake,actual_k,result
 2026-10-13,Freddy Peralta,over 3.5,3.5,-137,draftkings,0.684,0.138,20.0,6,win,14.6
 2026-10-14,Robert Gasser,over 3.5,3.5,102,draftkings,0.701,0.234,20.0,3,loss,-20.0
 2026-10-15,Tyler Glasnow,over 6.5,6.5,115,draftkings,0.681,0.243,20.0,6,loss,-20.0
+2026-10-19,Freddy Peralta,over 3.5,3.5,-170,draftkings,0.748,0.154,20.0,3,loss,-20.0
